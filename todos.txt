@@ -1,0 +1,39 @@
+
+19/01/24
+1: Separated dg widgets and fg widgets 
+2: Dg widgets will be prioritized based on component name (WidgetMapper.getWidgetName()) for more details
+3: Changed UiObjectModelBase 
+
+Conclusion: Figured out the first version of my parser
+
+[TODO]
+1) Complete the guidelines discussion
+2) Extract widgets data for making the widgets data for digia_json
+3) Complete all widgets list
+
+
+
+OPTIMIZATION
+1) Remove group/frame with a single child: 
+     1) Either before parsing in figmajson
+     2) In the final digia json through recursion
+     3) During parsing(GROUP/FRAME) just return child if it has only one children   
+
+// WIDGETS DONE
+Row,
+Column,
+Text,
+RichText,
+
+
+
+'https://app.digia.tech/api/v1'
+  static const String updatePage = '$baseUrl/page/update';
+  static Future<BaseResponse> updatePageForProject(
+      String pageId, PageDto pageDto) {
+    return _request(HttpMethod.post, ApiRoutes.updatePage, castObjectToDynamic,
+        data: {'id': pageId, 'update': pageDto});
+
+
+ eyJhbGciOiJSUzI1NiIsImtpZCI6IjViNjAyZTBjYTFmNDdhOGViZmQxMTYwNGQ5Y2JmMDZmNGQ0NWY4MmIiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiU2F0ZW5kcmEgUGFsIiwicGljdHVyZSI6Imh0dHBzOi8vbGgzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9hL0FDZzhvY0pReWlWd3lCVkE0RloySkxrcks1Y1Z1U2ZoRUhDRjBpVGpwaWY3dDdTRj1zOTYtYyIsImlzcyI6Imh0dHBzOi8vc2VjdXJldG9rZW4uZ29vZ2xlLmNvbS9kaWdpYS1idWlsZGVyLWRhc2hib2FyZC00MjQ3MCIsImF1ZCI6ImRpZ2lhLWJ1aWxkZXItZGFzaGJvYXJkLTQyNDcwIiwiYXV0aF90aW1lIjoxNzA2MDg1MDI5LCJ1c2VyX2lkIjoiTGd3NGd5QzVVcVM5YnpOQ1dySjc2NzRDSDJtMiIsInN1YiI6IkxndzRneUM1VXFTOWJ6TkNXcko3Njc0Q0gybTIiLCJpYXQiOjE3MDYwODUzMDQsImV4cCI6MTcwNjA4ODkwNCwiZW1haWwiOiJzYXR5ZW5kcmFwYWwxMDkwQGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJmaXJlYmFzZSI6eyJpZGVudGl0aWVzIjp7Imdvb2dsZS5jb20iOlsiMTA2Njg1NjQ4MDU3MDc2ODU3ODk2Il0sImVtYWlsIjpbInNhdHllbmRyYXBhbDEwOTBAZ21haWwuY29tIl19LCJzaWduX2luX3Byb3ZpZGVyIjoiZ29vZ2xlLmNvbSJ9fQ.V3HMhcSYPbUalSV9JRwVExCe3aupw3tpn8YTlQyw-cvkgVG3k1LnIUnbMKnyZy3dpMoPLq7z_WZ_0zcvHG56TrXpzUnB1oTW4tswsqNUvV-XBelDDzpZv6NUEiZN629melH8uOo1qejKQaL_xjpU7jabAOGDF_YYEQz_FdxbImv6LjSEpGwZbeodDDqeIQO93d4dpnbjv3FR5yrWwCfn9Bw5Ocd-uNyTwyo77hZU3Qgf038ZYLHeNOwgUZFt80inPkh81_mLuwogLxZDS7XmY027zIUGAxEKGpaeDhe576IBbE0hQ9W9Zf-H2bd-2WW_NvBX3v1m72uAjTme98tx4Q
+  dg-device-id: b87a0a8a-0668-48b5-ab29-480a7d096a7d       

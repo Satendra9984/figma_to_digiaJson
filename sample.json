@@ -1,0 +1,492 @@
+{
+     "request": {
+          "id": "657feab456c96302faa67e0a",
+          "update": {
+               "id": "657feab456c96302faa67e0a",
+               "slug": "homepage-657feab456c96302faa67dfa",
+               "displayName": "HomePage",
+               "projectId": "657feab456c96302faa67dfa",
+               "dataSource": null,
+               "inputArgs": null,
+               "layout": {
+                    "header": {
+                         "root": "SwVxFsuFZE"
+                    },
+                    "footer": {
+                         "root": null
+                    },
+                    "nodes": {
+                         "agwb55kgRV": {
+                              "type": "digia/column",
+                              "id": "agwb55kgRV",
+                              "parent": null,
+                              "propData": {
+                                   "type": "object",
+                                   "data": {
+                                        "mainAxisAlignment": {
+                                             "type": "object",
+                                             "data": null
+                                        },
+                                        "crossAxisAlignment": {
+                                             "type": "string",
+                                             "data": "start"
+                                        }
+                                   }
+                              },
+                              "defaultPropData": {
+                                   "type": "object",
+                                   "data": {
+                                        "visibility": {
+                                             "type": "bool",
+                                             "data": true
+                                        },
+                                        "align": {
+                                             "type": "string",
+                                             "data": "none"
+                                        },
+                                        "style": {
+                                             "type": "object",
+                                             "data": {
+                                                  "padding": {
+                                                       "type": "string",
+                                                       "data": "12,0,12,0"
+                                                  }
+                                             }
+                                        },
+                                        "onClick": {
+                                             "type": "action",
+                                             "data": null
+                                        }
+                                   }
+                              },
+                              "children": [
+                                   "lXZqS8n1te",
+                                   "HFkfP7EwJi",
+                                   "ipEtbk7rRe",
+                                   "QlFXqaMMoM",
+                                   "DO4qfRmM7U"
+                              ],
+                              "dataRef": {
+                                   "datum": "[]",
+                                   "kind": "json"
+                              }
+                         },
+                         "lXZqS8n1te": {
+                              "type": "digia/richText",
+                              "id": "lXZqS8n1te",
+                              "parent": "agwb55kgRV",
+                              "propData": {
+                                   "type": "object",
+                                   "data": {
+                                        "textSpans": {
+                                             "type": "array",
+                                             "data": [
+                                                  {
+                                                       "type": "object",
+                                                       "data": {
+                                                            "text": {
+                                                                 "type": "string",
+                                                                 "data": "Hey! "
+                                                            },
+                                                            "spanStyle": {
+                                                                 "type": "object",
+                                                                 "data": {
+                                                                      "fontToken": {
+                                                                           "type": "string",
+                                                                           "data": "displayLarge"
+                                                                      },
+                                                                      "textColor": {
+                                                                           "type": "string",
+                                                                           "data": "#101213"
+                                                                      }
+                                                                 }
+                                                            }
+                                                       }
+                                                  },
+                                                  {
+                                                       "type": "object",
+                                                       "data": {
+                                                            "text": {
+                                                                 "type": "string",
+                                                                 "data": "Welcome To Digia"
+                                                            },
+                                                            "spanStyle": {
+                                                                 "type": "object",
+                                                                 "data": {
+                                                                      "fontToken": {
+                                                                           "type": "string",
+                                                                           "data": "displayLarge"
+                                                                      },
+                                                                      "textColor": {
+                                                                           "type": "string",
+                                                                           "data": "#4945FF"
+                                                                      }
+                                                                 }
+                                                            }
+                                                       }
+                                                  }
+                                             ]
+                                        },
+                                        "maxLines": {
+                                             "type": "number",
+                                             "data": null
+                                        },
+                                        "overflow": {
+                                             "type": "string",
+                                             "data": "clip"
+                                        },
+                                        "alignment": {
+                                             "type": "string",
+                                             "data": "start"
+                                        },
+                                        "textStyle": {
+                                             "type": "object",
+                                             "data": {
+                                                  "fontToken": {
+                                                       "type": "string",
+                                                       "data": "titleLarge"
+                                                  }
+                                             }
+                                        }
+                                   }
+                              },
+                              "defaultPropData": {
+                                   "type": "object",
+                                   "data": {
+                                        "visibility": {
+                                             "type": "bool",
+                                             "data": true
+                                        },
+                                        "align": {
+                                             "type": "string",
+                                             "data": "none"
+                                        },
+                                        "style": {
+                                             "type": "object",
+                                             "data": {
+                                                  "margin": {
+                                                       "type": "string",
+                                                       "data": "0,12,0,12"
+                                                  }
+                                             }
+                                        },
+                                        "onClick": {
+                                             "type": "action",
+                                             "data": null
+                                        }
+                                   }
+                              },
+                              "children": [],
+                              "dataRef": null
+                         },
+                         "HFkfP7EwJi": {
+                              "type": "digia/image",
+                              "id": "HFkfP7EwJi",
+                              "parent": "agwb55kgRV",
+                              "propData": {
+                                   "type": "object",
+                                   "data": {
+                                        "style": {
+                                             "type": "object",
+                                             "data": {
+                                                  "borderRadius": {
+                                                       "type": "string",
+                                                       "data": "0,0,0,0"
+                                                  },
+                                                  "bgColor": {
+                                                       "type": "string",
+                                                       "data": "#EEEEEE"
+                                                  }
+                                             }
+                                        },
+                                        "fit": {
+                                             "type": "string",
+                                             "data": "contain"
+                                        },
+                                        "aspectRatio": {
+                                             "type": "number",
+                                             "data": 1.66
+                                        },
+                                        "imageSrc": {
+                                             "type": "string",
+                                             "data": "https://picsum.photos/id/9/400/225"
+                                        },
+                                        "placeHolder": {
+                                             "type": "string",
+                                             "data": null
+                                        },
+                                        "errorImage": {
+                                             "type": "string",
+                                             "data": null
+                                        }
+                                   }
+                              },
+                              "defaultPropData": {
+                                   "type": "object",
+                                   "data": {
+                                        "visibility": {
+                                             "type": "bool",
+                                             "data": true
+                                        },
+                                        "align": {
+                                             "type": "string",
+                                             "data": "none"
+                                        },
+                                        "style": {
+                                             "type": "object",
+                                             "data": {
+                                                  "borderRadius": {
+                                                       "type": "string",
+                                                       "data": "4,4,4,4"
+                                                  }
+                                             }
+                                        },
+                                        "onClick": {
+                                             "type": "action",
+                                             "data": null
+                                        }
+                                   }
+                              },
+                              "children": [],
+                              "dataRef": null
+                         },
+                         "ipEtbk7rRe": {
+                              "type": "digia/button",
+                              "id": "ipEtbk7rRe",
+                              "parent": "agwb55kgRV",
+                              "propData": {
+                                   "type": "object",
+                                   "data": {
+                                        "style": {
+                                             "type": "object",
+                                             "data": {
+                                                  "padding": {
+                                                       "type": "string",
+                                                       "data": "12,6,12,6"
+                                                  },
+                                                  "borderRadius": {
+                                                       "type": "string",
+                                                       "data": "100,100,100,100"
+                                                  },
+                                                  "bgColor": {
+                                                       "type": "string",
+                                                       "data": "#FF45B6"
+                                                  },
+                                                  "margin": {
+                                                       "type": "string",
+                                                       "data": "0,16,0,0"
+                                                  }
+                                             }
+                                        },
+                                        "text": {
+                                             "type": "object",
+                                             "data": {
+                                                  "textStyle": {
+                                                       "type": "object",
+                                                       "data": {
+                                                            "fontToken": {
+                                                                 "type": "string",
+                                                                 "data": "titleMedium"
+                                                            },
+                                                            "textColor": {
+                                                                 "type": "string",
+                                                                 "data": "#FFFFFF"
+                                                            },
+                                                            "textBgColor": {
+                                                                 "type": "string",
+                                                                 "data": ""
+                                                            },
+                                                            "textDecoration": {
+                                                                 "type": "string",
+                                                                 "data": "none"
+                                                            },
+                                                            "textDecorationColor": {
+                                                                 "type": "string",
+                                                                 "data": null
+                                                            },
+                                                            "textDecorationStyle": {
+                                                                 "type": "string",
+                                                                 "data": null
+                                                            }
+                                                       }
+                                                  },
+                                                  "text": {
+                                                       "type": "string",
+                                                       "data": "Sign In with google\n"
+                                                  },
+                                                  "maxLines": {
+                                                       "type": "number",
+                                                       "data": 1
+                                                  },
+                                                  "alignment": {
+                                                       "type": "string",
+                                                       "data": "center"
+                                                  }
+                                             }
+                                        },
+                                        "onClick": {
+                                             "type": "action",
+                                             "data": null
+                                        }
+                                   }
+                              },
+                              "defaultPropData": {
+                                   "type": "object",
+                                   "data": {
+                                        "visibility": {
+                                             "type": "bool",
+                                             "data": true
+                                        },
+                                        "align": {
+                                             "type": "string",
+                                             "data": "center"
+                                        },
+                                        "style": {
+                                             "type": "object",
+                                             "data": {
+                                                  "borderColor": {
+                                                       "type": "string",
+                                                       "data": "#000000"
+                                                  }
+                                             }
+                                        },
+                                        "onClick": {
+                                             "type": "action",
+                                             "data": null
+                                        }
+                                   }
+                              },
+                              "children": [],
+                              "dataRef": null
+                         },
+                         "SwVxFsuFZE": {
+                              "type": "fw/appBar",
+                              "id": "SwVxFsuFZE",
+                              "parent": null,
+                              "propData": {
+                                   "type": "object",
+                                   "data": {
+                                        "title": {
+                                             "type": "object",
+                                             "data": {
+                                                  "text": {
+                                                       "type": "string",
+                                                       "data": "Digia"
+                                                  },
+                                                  "textStyle": {
+                                                       "type": "object",
+                                                       "data": {
+                                                            "fontToken": {
+                                                                 "type": "string",
+                                                                 "data": "titleLarge"
+                                                            },
+                                                            "textColor": {
+                                                                 "type": "string",
+                                                                 "data": "#FFFFFF"
+                                                            },
+                                                            "textBgColor": {
+                                                                 "type": "string",
+                                                                 "data": null
+                                                            },
+                                                            "textDecoration": {
+                                                                 "type": "string",
+                                                                 "data": "none"
+                                                            },
+                                                            "textDecorationColor": {
+                                                                 "type": "string",
+                                                                 "data": null
+                                                            },
+                                                            "textDecorationStyle": {
+                                                                 "type": "string",
+                                                                 "data": null
+                                                            }
+                                                       }
+                                                  }
+                                             }
+                                        },
+                                        "elevation": {
+                                             "type": "number",
+                                             "data": 2
+                                        },
+                                        "shadowColor": {
+                                             "type": "string",
+                                             "data": null
+                                        },
+                                        "backgrounColor": {
+                                             "type": "string",
+                                             "data": "#8A941C85"
+                                        },
+                                        "iconColor": {
+                                             "type": "string",
+                                             "data": null
+                                        }
+                                   }
+                              },
+                              "defaultPropData": null,
+                              "children": [],
+                              "dataRef": null
+                         },
+                         "QlFXqaMMoM": {
+                              "type": "fw/sized_box",
+                              "id": "QlFXqaMMoM",
+                              "parent": "agwb55kgRV",
+                              "propData": {
+                                   "type": "object",
+                                   "data": {
+                                        "icon": {
+                                             "type": "json",
+                                             "data": {
+                                                  "pack": "lineAwesomeIcons",
+                                                  "key": "minus_square_1"
+                                             }
+                                        },
+                                        "width": {
+                                             "type": "string",
+                                             "data": null
+                                        },
+                                        "height": {
+                                             "type": "string",
+                                             "data": null
+                                        }
+                                   }
+                              },
+                              "defaultPropData": null,
+                              "children": [],
+                              "dataRef": null
+                         },
+                         "DO4qfRmM7U": {
+                              "type": "digia/icon",
+                              "id": "DO4qfRmM7U",
+                              "parent": "agwb55kgRV",
+                              "propData": {
+                                   "type": "object",
+                                   "data": {
+                                        "iconData": {
+                                             "type": "json",
+                                             "data": {
+                                                  "pack": "fontAwesomeIcons",
+                                                  "key": "anchorLock"
+                                             }
+                                        },
+                                        "iconSize": {
+                                             "type": "number",
+                                             "data": 150
+                                        },
+                                        "iconColor": {
+                                             "type": "string",
+                                             "data": "#921010"
+                                        }
+                                   }
+                              },
+                              "defaultPropData": null,
+                              "children": [],
+                              "dataRef": null
+                         }
+                    },
+                    "body": {
+                         "root": "agwb55kgRV"
+                    }
+               }
+          }
+     }
+}

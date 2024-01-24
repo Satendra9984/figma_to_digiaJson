@@ -1,0 +1,8 @@
+name: figma_to_json_convertor
+
+
+environment:
+  sdk: '>=3.0.0'
+
+dependencies:
+  http: ^1.1.2
