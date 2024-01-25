@@ -26,6 +26,7 @@ Developing this parser presented a stimulating and challenging problem-solving e
 Feel free to explore the codebase, contribute, or use the parser in your projects. Happy coding!
 
 **Figma JSON File:** [figma.json](figma.json)
+
 **Digia JSON File:** [final_digia.json](final_digia.json)
 
 ## Project Images
