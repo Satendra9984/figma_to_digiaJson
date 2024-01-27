@@ -1,4 +1,4 @@
-# 🚀 Figma JSON to Digia Components JSON Parser
+# 🚀 Figma To Digia JsonComponents Parser
 
 ## Overview
 
