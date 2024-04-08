@@ -4,8 +4,10 @@
 
 This project implements a sophisticated parser designed to convert Figma JSON representations into a streamlined JSON format compatible with Digia Components. Leveraging dynamic programming techniques and adhering to SOLID principles, the parser recursively processes each element in the Figma JSON, optimizing and extracting valuable data.
 
-## Key Features 🔧
+[https://drive.google.com/file/d/1EUW7UaYJkR8TxY1bVf7s-j83b9BtmOsw/view?usp=sharing]
 
+## Key Features 🔧
+- **OpenAi:** Used OpenAi custom Model for converting html/css into flutter widget tree json and thus parsing that json into digia format using the parser written in dart;
 - **Dynamic Programming:** The parser employs dynamic programming techniques to efficiently process and optimize the complex structure of Figma JSON.
 - **SOLID Principles:** The implementation adheres to SOLID principles, ensuring a modular and maintainable design that facilitates extensibility.
 - **Recursive Parsing:** All elements within the Figma JSON are parsed recursively, extracting essential information and converting them into a linear and memoized structure compatible with Digia Components.
