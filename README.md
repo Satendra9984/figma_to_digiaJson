@@ -8,6 +8,8 @@ The main objective of this project is to convert html/css from figma design file
 
 This project implements a sophisticated parser designed to convert Figma JSON representations into a streamlined JSON format compatible with Digia Components. Leveraging OpenAi custom Models for converting html/css to flutter widget tree json dynamic programming techniques and adhering to SOLID principles for the parser recursively processes each element in the Figma JSON, optimizing and extracting valuable data.
 
+
+## Full code explaination
 [https://drive.google.com/file/d/1EUW7UaYJkR8TxY1bVf7s-j83b9BtmOsw/view?usp=sharing]
 
 ## Key Features 🔧
